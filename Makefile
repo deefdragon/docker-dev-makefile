@@ -86,6 +86,7 @@ redis:
 keycloak:
 	docker run -d \
 	--user $(CURRENT_UID):$(CURRENT_GID) \
+	--restart=unless-stopped \
 	--name keycloak \
 	-p $(KEYCLOAK_PORT):8080 \
 	-e KEYCLOAK_USER=admin \
@@ -97,7 +98,6 @@ keycloak:
 	-e DB_SCHEMA=keycloak \
 	-e DB_ADDR=$(LOCAL_IP) \
 	-e DB_PORT=5432 \
-	--restart=unless-stopped \
 	jboss/keycloak &
 
 traefik:
@@ -109,7 +109,7 @@ traefik:
 	-p $(TRAEFIK_PORT):8080 \
 	-v $(DOCKER_DATA_DIR)/traefik/traefik.yml:/etc/traefik/traefik.yml \
 	-v /var/run/docker.sock:/var/run/docker.sock \
-	traefik:v2.0
+	traefik:v2.0 &
 
 openhab:
 	docker run -d \
@@ -123,16 +123,17 @@ openhab:
 	-v $(DOCKER_DATA_DIR)/openhab/conf:/openhab/conf \
 	-v $(DOCKER_DATA_DIR)/openhab/userdata:/openhab/userdata \
 	-v $(DOCKER_DATA_DIR)/openhab/addons:/openhab/addons \
-	openhab/openhab
+	openhab/openhab &
 
 hassio:
 	docker run --init -d \
+	--restart=unless-stopped \
 	--name="hassio"  \
 	-e "TZ=America/New_York"  \
 	-v $(DOCKER_DATA_DIR)/hassio:/config  \
 	--net=host  \
 	--restart=unless-stopped \
-	homeassistant/home-assistant:stable
+	homeassistant/home-assistant:stable &
 
 xoa:
 	docker run -d \
