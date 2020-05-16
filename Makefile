@@ -113,11 +113,12 @@ traefik:
 
 openhab:
 	docker run -d \
-	--user $(CURRENT_UID):$(CURRENT_GID) \
 	--restart=unless-stopped \
 	--name openhab \
-	--net=host \
-	-e OPENHAB_HTTP_PORT=$(OPENHAB_PORT) \
+	-p $(OPENHAB_PORT):8080 \
+	-e OPENHAB_HTTP_PORT=8080 \
+	-e USER_ID=$(CURRENT_UID) \
+	-e GROUP_ID=$(CURRENT_GID) \
 	-v /etc/localtime:/etc/localtime:ro \
 	-v /etc/timezone:/etc/timezone:ro \
 	-v $(DOCKER_DATA_DIR)/openhab/conf:/openhab/conf \
@@ -129,10 +130,9 @@ hassio:
 	docker run --init -d \
 	--restart=unless-stopped \
 	--name="hassio"  \
+	-p $(HASSIO_PORT):8123 \
 	-e "TZ=America/New_York"  \
 	-v $(DOCKER_DATA_DIR)/hassio:/config  \
-	--net=host  \
-	--restart=unless-stopped \
 	homeassistant/home-assistant:stable &
 
 xoa:
