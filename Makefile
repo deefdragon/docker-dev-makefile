@@ -94,7 +94,7 @@ keycloak:
 	-e DB_VENDOR=postgres \
 	-e DB_USER=admin \
 	-e DB_PASSWORD=password \
-	-e DB_DATABASE=default \
+	-e DB_DATABASE=public \ 
 	-e DB_SCHEMA=keycloak \
 	-e DB_ADDR=$(LOCAL_IP) \
 	-e DB_PORT=5432 \
