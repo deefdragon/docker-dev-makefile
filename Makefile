@@ -16,11 +16,51 @@ POSTGRES_PORT=5432
 PGADMIN_PORT=8082
 REDIS_PORT=6379
 
+INFLUX_PORT=8086
+INFLUX_GRAPHITE_PORT=2003
+GRAFANA_PORT=8085
+CHRONOGRAF_PORT=8084
+
+
+
+
 TRAEFIK_PORT=8080
 KEYCLOAK_PORT=8090
 OPENHAB_PORT=8091
 HASSIO_PORT=8123
 XOA_PORT=8093
+
+grafana:
+	docker run -d \
+	--restart=unless-stopped \
+	--name=grafana \
+	-p $(GRAFANA_PORT):3000 \
+	-v $(DOCKER_DATA_DIR)/grafana:/var/lib/grafana \
+	grafana/grafana
+
+chronograf:
+	docker run -d \
+	--restart=unless-stopped \
+	--name chronograf \
+	-p $(CHRONOGRAF_PORT):8888 \
+	-v $(DOCKER_DATA_DIR)/chronograf/data:/var/lib/chronograf \
+	chronograf &
+
+influxdb:
+	docker run -d \
+	--restart=unless-stopped \
+	--name influxdb \
+	-p $(INFLUX_PORT):8086 \
+	-p $(INFLUX_GRAPHITE_PORT):2003 \
+	-e INFLUXDB_DB=db0 \
+	-e INFLUXDB_GRAPHITE_ENABLED=true \
+	-e INFLUXDB_ADMIN_USER=admin \
+	-e INFLUXDB_ADMIN_PASSWORD=password \
+	-e INFLUXDB_USER=grafana \
+	-e INFLUXDB_USER_PASSWORD=password \
+	-v $(DOCKER_DATA_DIR)/influxdb/data:/var/lib/influxdb \
+	-v $(DOCKER_DATA_DIR)/influxdb/influxdb.conf:/etc/influxdb/influxdb.conf:ro \
+	influxdb &
 
 mongodb:
 	docker run -d \
