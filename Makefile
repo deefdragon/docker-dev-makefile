@@ -1,11 +1,9 @@
-
-
 SHELL=/bin/bash
 IPS:=$(shell hostname -I)
-LOCAL_IP:=$(shell echo $(IPS) | cut -d' ' -f1)
+LOCAL_IP:=192.168.100.160
 USER=$(shell id -nu)
 
-DOCKER_DATA_DIR=/home/$(USER)/docker
+DOCKER_DATA_DIR=/data/docker
 
 CURRENT_UID := $(shell id -u)
 CURRENT_GID := $(shell id -g)
@@ -35,7 +33,7 @@ mytele:
 telegraf:
 	docker run -d \
 	--restart=unless-stopped \
-	--name=telegraf2 \
+	--name=telegraf \
 	-v $(DOCKER_DATA_DIR)/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro \
 	-v $(DOCKER_DATA_DIR)/telegraf/tools:/tools:ro \
 	-v /var/run/docker.sock:/var/run/docker.sock \
@@ -54,7 +52,7 @@ grafana:
 	--name=grafana \
 	-p $(GRAFANA_PORT):3000 \
 	-v $(DOCKER_DATA_DIR)/grafana:/var/lib/grafana \
-	grafana/grafana
+	grafana/grafana &
 
 chronograf:
 	docker run -d \
@@ -70,7 +68,7 @@ influxdb:
 	--name influxdb \
 	-p $(INFLUX_PORT):8086 \
 	-p $(INFLUX_GRAPHITE_PORT):2003 \
-	-e INFLUXDB_DB=db0 \
+	-e INFLUXDB_DB=influx \
 	-e INFLUXDB_GRAPHITE_ENABLED=true \
 	-e INFLUXDB_ADMIN_USER=admin \
 	-e INFLUXDB_ADMIN_PASSWORD=password \
@@ -82,7 +80,6 @@ influxdb:
 
 mongodb:
 	docker run -d \
-	--user $(CURRENT_UID):$(CURRENT_GID) \
 	--restart=unless-stopped \
 	--name mongodb \
 	-p $(MONGO_PORT):27017 \
@@ -105,7 +102,7 @@ express:
 	-e ME_CONFIG_MONGODB_ADMINPASSWORD="password" \
 	mongo-express &
 
-postgres: 
+postgres:
 	docker run -d \
 	--user $(CURRENT_UID):$(CURRENT_GID) \
 	--restart=unless-stopped \
@@ -132,7 +129,7 @@ pgadmin:
 	-v $(DOCKER_DATA_DIR)/pgadmin/configs/servers.json:/pgadmin4/servers.json \
 	dpage/pgadmin4 &
 
-redis: 
+redis:
 	docker run -d \
 	--user $(CURRENT_UID):$(CURRENT_GID) \
 	--restart=unless-stopped \
@@ -152,7 +149,7 @@ keycloak:
 	-e DB_VENDOR=postgres \
 	-e DB_USER=admin \
 	-e DB_PASSWORD=password \
-	-e DB_DATABASE=public \ 
+	-e DB_DATABASE=public \
 	-e DB_SCHEMA=keycloak \
 	-e DB_ADDR=$(LOCAL_IP) \
 	-e DB_PORT=5432 \
