@@ -30,6 +30,24 @@ OPENHAB_PORT=8091
 HASSIO_PORT=8123
 XOA_PORT=8093
 
+mytele:
+	docker build -f dockerfile -t mytele .
+telegraf:
+	docker run -d \
+	--restart=unless-stopped \
+	--name=telegraf2 \
+	-v $(DOCKER_DATA_DIR)/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro \
+	-v $(DOCKER_DATA_DIR)/telegraf/tools:/tools:ro \
+	-v /var/run/docker.sock:/var/run/docker.sock \
+	mytele &
+
+frontend:
+	docker run -d \
+	--restart=unless-stopped \
+	--name=streemfront \
+	-p 8080:8183 \
+	deefdragon/streemfront
+
 grafana:
 	docker run -d \
 	--restart=unless-stopped \
