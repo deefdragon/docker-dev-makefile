@@ -30,13 +30,31 @@ XOA_PORT=8093
 
 mytele:
 	docker build -f dockerfile -t mytele .
-telegraf:
+telegraf: mytele
+	rm $(DOCKER_DATA_DIR)/telegraf/telegraf.conf -r
+	cp ./telegraf.conf $(DOCKER_DATA_DIR)/telegraf/telegraf.conf
+	
 	docker run -d \
 	--restart=unless-stopped \
+	--privileged \
 	--name=telegraf \
+	-e HOST_PROC=/hostfs/proc \
+	-e HOST_MOUNT_PREFIX=/hostfs \
+	-e INFLUX_PORT=$(INFLUX_PORT) \
+	-e INFLUX_IP=$(LOCAL_IP) \
+	-e INFLUX_WRITE_USERNAME=admin \
+	-e INFLUX_WRITE_PASSWORD=password \
+	-e INFLUX_READ_USERNAME=admin \
+	-e INFLUX_READ_PASSWORD=password \
+	-e IPMI_USERNAME=root \
+	-e IPMI_PASSWORD=Password1234 \
+	-e POSTGRES_READ_USERNAME=admin \
+	-e POSTGRES_READ_PASSWORD=password \
 	-v $(DOCKER_DATA_DIR)/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro \
 	-v $(DOCKER_DATA_DIR)/telegraf/tools:/tools:ro \
 	-v /var/run/docker.sock:/var/run/docker.sock \
+	-v /:/hostfs:ro \
+	-v /run/udev:/run/udev:ro \
 	mytele &
 
 frontend:
