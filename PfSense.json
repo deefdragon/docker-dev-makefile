@@ -1,0 +1,501 @@
+{
+	"meta": {
+		"chronografVersion": "1.8.4",
+		"sources": {
+			"1": {
+				"name": "Influx 1",
+				"link": "/chronograf/v1/sources/1"
+			}
+		}
+	},
+	"dashboard": {
+		"id": "7",
+		"cells": [
+			{
+				"i": "8efd4735-bd87-42d4-9b18-113be32b2a2a",
+				"x": 8,
+				"y": 0,
+				"w": 4,
+				"h": 3,
+				"name": "Data Out",
+				"queries": [
+					{
+						"query": "SELECT derivative(mean(\"bytes_recv\")) AS \"public in\" FROM \"pfsense\".\"autogen\".\"net\" WHERE time > :dashboardTime: AND time < :upperDashboardTime:  GROUP BY time(:interval:*5), interface FILL(null)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT derivative(mean(\"bytes_recv\")) AS \"public in\" FROM \"pfsense\".\"autogen\".\"net\" WHERE time > :dashboardTime: AND time < :upperDashboardTime:  GROUP BY time(:interval:*5), interface FILL(null)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"1000",
+							""
+						],
+						"label": "Data Out",
+						"prefix": " ",
+						"suffix": "b",
+						"base": "2",
+						"scale": "log"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "ba8315a2-6bcf-4c82-9d0e-953a19b67c7c",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "85d09321-b850-469b-81a3-7e989e075c7e",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "2a347ee2-7a4e-4803-9adc-262caa1a1ff0",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/7/cells/8efd4735-bd87-42d4-9b18-113be32b2a2a"
+				}
+			},
+			{
+				"i": "2809b709-fe15-46b0-b66f-a1d5332591d6",
+				"x": 4,
+				"y": 0,
+				"w": 4,
+				"h": 3,
+				"name": "Data In",
+				"queries": [
+					{
+						"query": "SELECT derivative(mean(\"bytes_sent\")) AS \"public out\" FROM \"pfsense\".\"autogen\".\"net\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: GROUP BY time(:interval:*5), interface FILL(null)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT derivative(mean(\"bytes_sent\")) AS \"public out\" FROM \"pfsense\".\"autogen\".\"net\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: GROUP BY time(:interval:*5), interface FILL(null)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"1000",
+							""
+						],
+						"label": "public output",
+						"prefix": " ",
+						"suffix": "b",
+						"base": "2",
+						"scale": "log"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "ba8315a2-6bcf-4c82-9d0e-953a19b67c7c",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "85d09321-b850-469b-81a3-7e989e075c7e",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "2a347ee2-7a4e-4803-9adc-262caa1a1ff0",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/7/cells/2809b709-fe15-46b0-b66f-a1d5332591d6"
+				}
+			},
+			{
+				"i": "620252e3-3b7e-4dd7-abd7-b75ca70dcd11",
+				"x": 0,
+				"y": 0,
+				"w": 4,
+				"h": 3,
+				"name": "Ping Times",
+				"queries": [
+					{
+						"query": "SELECT mean(\"average_response_ms\") as \"\" FROM \"pfsense\".\"autogen\".\"ping\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: GROUP BY time(:interval:*5), url FILL(null)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT mean(\"average_response_ms\") as \"\" FROM \"pfsense\".\"autogen\".\"ping\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: GROUP BY time(:interval:*5), url FILL(null)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"0",
+							""
+						],
+						"label": "Ping Times",
+						"prefix": "",
+						"suffix": "",
+						"base": "raw",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "a8ef4a94-2a31-4caf-ac28-df8d2ca2d1ee",
+						"type": "scale",
+						"hex": "#FD7A5D",
+						"name": "Delorean",
+						"value": "0"
+					},
+					{
+						"id": "1c42b8d9-9caf-4d57-96f0-ef16559a470f",
+						"type": "scale",
+						"hex": "#5F1CF2",
+						"name": "Delorean",
+						"value": "0"
+					},
+					{
+						"id": "87137f8d-7aaf-4b27-849e-07312b4f379f",
+						"type": "scale",
+						"hex": "#4CE09A",
+						"name": "Delorean",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/7/cells/620252e3-3b7e-4dd7-abd7-b75ca70dcd11"
+				}
+			},
+			{
+				"i": "097fa3ea-f75b-440f-bd3b-11aac0a07bac",
+				"x": 0,
+				"y": 3,
+				"w": 4,
+				"h": 3,
+				"name": "CPU Usage",
+				"queries": [
+					{
+						"query": "SELECT mean(\"usage_idle\")*-1+100 AS \"total CPU usage\" FROM \"pfsense\".\"autogen\".\"cpu\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: AND \"cpu\"='cpu-total' GROUP BY time(:interval:*5) FILL(null)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT mean(\"usage_idle\")*-1+100 AS \"total CPU usage\" FROM \"pfsense\".\"autogen\".\"cpu\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: AND \"cpu\"='cpu-total' GROUP BY time(:interval:*5) FILL(null)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"0",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "raw",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "ba8315a2-6bcf-4c82-9d0e-953a19b67c7c",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "85d09321-b850-469b-81a3-7e989e075c7e",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "2a347ee2-7a4e-4803-9adc-262caa1a1ff0",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/7/cells/097fa3ea-f75b-440f-bd3b-11aac0a07bac"
+				}
+			}
+		],
+		"templates": [],
+		"name": "PfSense",
+		"organization": "default",
+		"links": {
+			"self": "/chronograf/v1/dashboards/7",
+			"cells": "/chronograf/v1/dashboards/7/cells",
+			"templates": "/chronograf/v1/dashboards/7/templates"
+		}
+	}
+}

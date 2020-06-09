@@ -1,0 +1,470 @@
+{
+	"meta": {
+		"chronografVersion": "1.8.4",
+		"sources": {
+			"1": {
+				"name": "Influx 1",
+				"link": "/chronograf/v1/sources/1"
+			}
+		}
+	},
+	"dashboard": {
+		"id": "10",
+		"cells": [
+			{
+				"i": "99979666-eba6-4eee-8f03-072f37516b37",
+				"x": 0,
+				"y": 0,
+				"w": 2,
+				"h": 4,
+				"name": "Power Cost",
+				"queries": [
+					{
+						"query": "SELECT mean(\"value\")/1000*24*30*:pricePerKWH:*:numServers: AS \"wats\" FROM \"ipmi\".\"autogen\".\"ipmi_sensor\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: AND \"name\"='system_level' AND \"server\"='192.168.100.22' FILL(null)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT mean(\"value\")/1000*24*30*:pricePerKWH:*:numServers: AS \"wats\" FROM \"ipmi\".\"autogen\".\"ipmi_sensor\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: AND \"name\"='system_level' AND \"server\"='192.168.100.22' FILL(null)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "$",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "gauge",
+				"colors": [
+					{
+						"id": "0",
+						"type": "min",
+						"hex": "#32B08C",
+						"name": "viridian",
+						"value": "0"
+					},
+					{
+						"id": "1",
+						"type": "max",
+						"hex": "#BF3D5E",
+						"name": "ruby",
+						"value": "200"
+					}
+				],
+				"legend": {},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/10/cells/99979666-eba6-4eee-8f03-072f37516b37"
+				}
+			},
+			{
+				"i": "ad08f9ef-6b87-44e6-9b23-409c8342a7e7",
+				"x": 6,
+				"y": 0,
+				"w": 4,
+				"h": 4,
+				"name": "Fan Speed",
+				"queries": [
+					{
+						"query": "SELECT mean(\"value\") AS \"mean_value\" FROM \"ipmi\".\"autogen\".\"ipmi_sensor\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: AND (\"name\"='fan_5_rpm' OR \"name\"='fan_4_rpm' OR \"name\"='fan_3_rpm' OR \"name\"='fan_2_rpm' OR \"name\"='fan_1_rpm') GROUP BY time(:interval:), \"name\", \"server\" FILL(null)",
+						"queryConfig": {
+							"database": "telegraf",
+							"measurement": "ipmi_sensor",
+							"retentionPolicy": "autogen",
+							"fields": [
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "mean_value",
+									"args": [
+										{
+											"value": "value",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								}
+							],
+							"tags": {
+								"name": [
+									"fan_5_rpm",
+									"fan_4_rpm",
+									"fan_3_rpm",
+									"fan_2_rpm",
+									"fan_1_rpm"
+								]
+							},
+							"groupBy": {
+								"time": "auto",
+								"tags": [
+									"name",
+									"server"
+								]
+							},
+							"areTagsAccepted": true,
+							"fill": "null",
+							"rawText": null,
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					},
+					{
+						"query": "SELECT mean(\"value\") AS \"mean_value\" FROM \"ipmi\".\"autogen\".\"ipmi_sensor\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: AND (\"name\"='fan_1_rpm' OR \"name\"='fan_2_rpm' OR \"name\"='fan_3_rpm' OR \"name\"='fan_4_rpm' OR \"name\"='fan_5_rpm') GROUP BY time(:interval:), name FILL(null)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT mean(\"value\") AS \"mean_value\" FROM \"ipmi\".\"autogen\".\"ipmi_sensor\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: AND (\"name\"='fan_1_rpm' OR \"name\"='fan_2_rpm' OR \"name\"='fan_3_rpm' OR \"name\"='fan_4_rpm' OR \"name\"='fan_5_rpm') GROUP BY time(:interval:), name FILL(null)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"0",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "fc2a5223-9d32-4361-a87b-1c0a82161bf7",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "044c2081-b449-435e-855f-75823bae6ec6",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "2cf5175d-fd97-4568-bb3d-616ff564bb5b",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					{
+						"internalName": "ipmi_sensor.mean_value",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/10/cells/ad08f9ef-6b87-44e6-9b23-409c8342a7e7"
+				}
+			},
+			{
+				"i": "694c6669-65dc-4736-8da2-9924f62c5c54",
+				"x": 2,
+				"y": 0,
+				"w": 4,
+				"h": 4,
+				"name": "Current Power Draw",
+				"queries": [
+					{
+						"query": "SELECT mean(\"value\") AS \"wats\" FROM \"ipmi\".\"autogen\".\"ipmi_sensor\" WHERE time > :dashboardTime: AND time < :upperDashboardTime: AND \"name\"='system_level' AND \"server\"='192.168.100.22' GROUP BY time(:interval:), \"server\" FILL(null)",
+						"queryConfig": {
+							"database": "telegraf",
+							"measurement": "ipmi_sensor",
+							"retentionPolicy": "autogen",
+							"fields": [
+								{
+									"value": "mean",
+									"type": "func",
+									"alias": "wats",
+									"args": [
+										{
+											"value": "value",
+											"type": "field",
+											"alias": ""
+										}
+									]
+								}
+							],
+							"tags": {
+								"name": [
+									"system_level"
+								],
+								"server": [
+									"192.168.100.22"
+								]
+							},
+							"groupBy": {
+								"time": "auto",
+								"tags": [
+									"server"
+								]
+							},
+							"areTagsAccepted": true,
+							"fill": "null",
+							"rawText": null,
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"0",
+							""
+						],
+						"label": "Power Pull",
+						"prefix": "",
+						"suffix": " Wats",
+						"base": "raw",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "0754d9f2-dfd9-4a64-a902-c8ea566f5c9b",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "cb86cfa8-16cb-4b25-ace6-e01d152c1e71",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "c70f24ae-4e22-4290-80a1-0356da1cd21e",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "",
+				"noteVisibility": "default",
+				"links": {
+					"self": "/chronograf/v1/dashboards/10/cells/694c6669-65dc-4736-8da2-9924f62c5c54"
+				}
+			}
+		],
+		"templates": [
+			{
+				"tempVar": ":pricePerKWH:",
+				"values": [],
+				"id": "09bce6e6-f618-4df0-bc2e-5a94b996326c",
+				"type": "text",
+				"label": "",
+				"sourceID": "dynamic",
+				"links": {
+					"self": "/chronograf/v1/dashboards/10/templates/09bce6e6-f618-4df0-bc2e-5a94b996326c"
+				}
+			},
+			{
+				"tempVar": ":numServers:",
+				"values": [],
+				"id": "a75c91b3-836d-46d2-9bec-23c1ac9567bf",
+				"type": "text",
+				"label": "",
+				"sourceID": "dynamic",
+				"links": {
+					"self": "/chronograf/v1/dashboards/10/templates/a75c91b3-836d-46d2-9bec-23c1ac9567bf"
+				}
+			}
+		],
+		"name": "ipmi",
+		"organization": "default",
+		"links": {
+			"self": "/chronograf/v1/dashboards/10",
+			"cells": "/chronograf/v1/dashboards/10/cells",
+			"templates": "/chronograf/v1/dashboards/10/templates"
+		}
+	}
+}

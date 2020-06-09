@@ -1,0 +1,649 @@
+{
+	"meta": {
+		"chronografVersion": "1.8.4",
+		"sources": {
+			"1": {
+				"name": "Influx 1",
+				"link": "/chronograf/v1/sources/1"
+			}
+		}
+	},
+	"dashboard": {
+		"id": "8",
+		"cells": [
+			{
+				"i": "1be4e72c-ccbd-4747-ae21-09b129924bd9",
+				"x": 0,
+				"y": 3,
+				"w": 4,
+				"h": 3,
+				"name": "PostgresSQL - Buffers",
+				"queries": [
+					{
+						"query": "SELECT non_negative_derivative(mean(\"buffers_alloc\"),10s) AS \"alloc\", non_negative_derivative(mean(\"buffers_backend\"),10s) AS \"backend\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE host = :host: AND time > :dashboardTime: GROUP BY time(:interval:) FILL(null)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT non_negative_derivative(mean(\"buffers_alloc\"),10s) AS \"alloc\", non_negative_derivative(mean(\"buffers_backend\"),10s) AS \"backend\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE host = :host: AND time > :dashboardTime: GROUP BY time(:interval:) FILL(null)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "Buffers",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "67e51821-72d5-4a87-8b51-618957008dc5",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "5f0d5602-9e94-4e83-9213-e4631d708a47",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "39e256a5-d314-420e-bdfd-ef711a2053f9",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "To enable this graph, you will need to configure the [Telegraf PostgreSQL Input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/postgresql).",
+				"noteVisibility": "showWhenNoData",
+				"links": {
+					"self": "/chronograf/v1/dashboards/8/cells/1be4e72c-ccbd-4747-ae21-09b129924bd9"
+				}
+			},
+			{
+				"i": "3e1f42c4-effa-4dcd-a002-89933e9bd38e",
+				"x": 8,
+				"y": 3,
+				"w": 4,
+				"h": 3,
+				"name": "Postgres deadlocks/conflicts",
+				"queries": [
+					{
+						"query": "SELECT mean(\"deadlocks\") AS \"deadlocks\", mean(\"conflicts\") AS \"conflicts\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE host=:host: AND time > :dashboardTime: GROUP BY time(:interval:) FILL(null)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT mean(\"deadlocks\") AS \"deadlocks\", mean(\"conflicts\") AS \"conflicts\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE host=:host: AND time > :dashboardTime: GROUP BY time(:interval:) FILL(null)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "6bee1ae3-b581-4551-9c20-9adcbf9be2df",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "48b57961-aae3-4192-8507-c2f60e79498b",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "0f5f5e11-9ed3-4baa-a36d-5eb1f123eb6e",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "To enable this graph, you will need to configure the [Telegraf PostgreSQL Input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/postgresql).",
+				"noteVisibility": "showWhenNoData",
+				"links": {
+					"self": "/chronograf/v1/dashboards/8/cells/3e1f42c4-effa-4dcd-a002-89933e9bd38e"
+				}
+			},
+			{
+				"i": "c7081bca-549d-44cf-8946-967185045489",
+				"x": 4,
+				"y": 3,
+				"w": 4,
+				"h": 3,
+				"name": "PostgreSQL commit/rolback per sec",
+				"queries": [
+					{
+						"query": "SELECT non_negative_derivative(mean(\"xact_commit\"),1s) AS \"commit\", non_negative_derivative(mean(\"xact_rollback\"),1s) AS \"rollback\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE host = :host: AND time > :dashboardTime: GROUP BY time(:interval:) FILL(null)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT non_negative_derivative(mean(\"xact_commit\"),1s) AS \"commit\", non_negative_derivative(mean(\"xact_rollback\"),1s) AS \"rollback\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE host = :host: AND time > :dashboardTime: GROUP BY time(:interval:) FILL(null)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line-plus-single-stat",
+				"colors": [
+					{
+						"id": "base",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "48b57961-aae3-4192-8507-c2f60e79498b",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "0f5f5e11-9ed3-4baa-a36d-5eb1f123eb6e",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "To enable this graph, you will need to configure the [Telegraf PostgreSQL Input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/postgresql).",
+				"noteVisibility": "showWhenNoData",
+				"links": {
+					"self": "/chronograf/v1/dashboards/8/cells/c7081bca-549d-44cf-8946-967185045489"
+				}
+			},
+			{
+				"i": "8efb3984-4898-481b-9765-1236cd7fca85",
+				"x": 6,
+				"y": 0,
+				"w": 6,
+				"h": 3,
+				"name": "PostgreSQL rows in / sec",
+				"queries": [
+					{
+						"query": "SELECT  non_negative_derivative(mean(\"tup_inserted\"),1s) AS \"inserted\", non_negative_derivative(mean(\"tup_updated\"),1s) AS \"updated\", non_negative_derivative(mean(\"tup_deleted\")) AS \"deleted\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE time > :dashboardTime: AND \"host\" = :host: GROUP BY time(:interval:)",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT  non_negative_derivative(mean(\"tup_inserted\"),1s) AS \"inserted\", non_negative_derivative(mean(\"tup_updated\"),1s) AS \"updated\", non_negative_derivative(mean(\"tup_deleted\")) AS \"deleted\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE time > :dashboardTime: AND \"host\" = :host: GROUP BY time(:interval:)",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "base",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "48b57961-aae3-4192-8507-c2f60e79498b",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "0f5f5e11-9ed3-4baa-a36d-5eb1f123eb6e",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "To enable this graph, you will need to configure the [Telegraf PostgreSQL Input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/postgresql).",
+				"noteVisibility": "showWhenNoData",
+				"links": {
+					"self": "/chronograf/v1/dashboards/8/cells/8efb3984-4898-481b-9765-1236cd7fca85"
+				}
+			},
+			{
+				"i": "47d28083-8da8-43ea-82fa-65a5b8761588",
+				"x": 0,
+				"y": 0,
+				"w": 6,
+				"h": 3,
+				"name": "PostgreSQL rows out / sec",
+				"queries": [
+					{
+						"query": "SELECT non_negative_derivative(mean(\"tup_fetched\"),1s) AS \"fetched\", non_negative_derivative(mean(\"tup_returned\"),1s) AS \"returned\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE \"host\"=:host: AND time > :dashboardTime: GROUP BY time(:interval:) ",
+						"queryConfig": {
+							"database": "",
+							"measurement": "",
+							"retentionPolicy": "",
+							"fields": [],
+							"tags": {},
+							"groupBy": {
+								"time": "",
+								"tags": []
+							},
+							"areTagsAccepted": false,
+							"rawText": "SELECT non_negative_derivative(mean(\"tup_fetched\"),1s) AS \"fetched\", non_negative_derivative(mean(\"tup_returned\"),1s) AS \"returned\" FROM \"postgres\".\"autogen\".\"postgresql\" WHERE \"host\"=:host: AND time > :dashboardTime: GROUP BY time(:interval:) ",
+							"range": null,
+							"shifts": null
+						},
+						"source": "",
+						"type": "influxql"
+					}
+				],
+				"axes": {
+					"x": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					},
+					"y2": {
+						"bounds": [
+							"",
+							""
+						],
+						"label": "",
+						"prefix": "",
+						"suffix": "",
+						"base": "10",
+						"scale": "linear"
+					}
+				},
+				"type": "line",
+				"colors": [
+					{
+						"id": "base",
+						"type": "scale",
+						"hex": "#31C0F6",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "48b57961-aae3-4192-8507-c2f60e79498b",
+						"type": "scale",
+						"hex": "#A500A5",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					},
+					{
+						"id": "0f5f5e11-9ed3-4baa-a36d-5eb1f123eb6e",
+						"type": "scale",
+						"hex": "#FF7E27",
+						"name": "Nineteen Eighty Four",
+						"value": "0"
+					}
+				],
+				"legend": {
+					"type": "static",
+					"orientation": "bottom"
+				},
+				"tableOptions": {
+					"verticalTimeAxis": true,
+					"sortBy": {
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					},
+					"wrapping": "truncate",
+					"fixFirstColumn": true
+				},
+				"fieldOptions": [
+					{
+						"internalName": "time",
+						"displayName": "",
+						"visible": true
+					}
+				],
+				"timeFormat": "MM/DD/YYYY HH:mm:ss",
+				"decimalPlaces": {
+					"isEnforced": true,
+					"digits": 2
+				},
+				"note": "To enable this graph, you will need to configure the [Telegraf PostgreSQL Input plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/postgresql).",
+				"noteVisibility": "showWhenNoData",
+				"links": {
+					"self": "/chronograf/v1/dashboards/8/cells/47d28083-8da8-43ea-82fa-65a5b8761588"
+				}
+			}
+		],
+		"templates": [
+			{
+				"tempVar": ":host:",
+				"values": [
+					{
+						"value": "dcf96a364414",
+						"type": "tagValue",
+						"selected": true
+					}
+				],
+				"id": "fcdecb51-2de3-4895-baf6-56687100fe59",
+				"type": "tagValues",
+				"label": "",
+				"query": {
+					"influxql": "SHOW TAG VALUES ON :database: FROM :measurement: WITH KEY=:tagKey:",
+					"db": "telegraf",
+					"measurement": "postgresql",
+					"tagKey": "host",
+					"fieldKey": ""
+				},
+				"sourceID": "dynamic",
+				"links": {
+					"self": "/chronograf/v1/dashboards/8/templates/fcdecb51-2de3-4895-baf6-56687100fe59"
+				}
+			}
+		],
+		"name": "PostgreSQL",
+		"organization": "default",
+		"links": {
+			"self": "/chronograf/v1/dashboards/8",
+			"cells": "/chronograf/v1/dashboards/8/cells",
+			"templates": "/chronograf/v1/dashboards/8/templates"
+		}
+	}
+}
