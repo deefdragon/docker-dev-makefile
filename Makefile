@@ -31,9 +31,10 @@ XOA_PORT=8093
 mytele:
 	docker build -f dockerfile -t mytele .
 telegraf: mytele
-	rm $(DOCKER_DATA_DIR)/telegraf/telegraf.conf -r
+	rm $(DOCKER_DATA_DIR)/telegraf/telegraf.conf -rf
+	mkdir $(DOCKER_DATA_DIR)/telegraf
 	cp ./telegraf.conf $(DOCKER_DATA_DIR)/telegraf/telegraf.conf
-	
+
 	docker run -d \
 	--restart=unless-stopped \
 	--privileged \
