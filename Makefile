@@ -29,7 +29,7 @@ HASSIO_PORT=8123
 XOA_PORT=8093
 
 mytele:
-	docker build -f dockerfile -t mytele .
+	docker build -f mytele.dockerfile -t mytele .
 telegraf: mytele
 	rm $(DOCKER_DATA_DIR)/telegraf/telegraf.conf -rf || true
 	mkdir $(DOCKER_DATA_DIR)/telegraf || true
