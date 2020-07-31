@@ -1,0 +1,750 @@
+ <mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" lang="en">&#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;  &#xA;
+   <siteinfo>&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;  
+     <sitename>Create Your Own Story</sitename>
+     <base>http://editthis.info/create_your_own_story/Main_Page</base>
+     <generator>MediaWiki 1.15.1</generator>
+     <case>first-letter</case>
+     <namespaces>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <namespace key="-2">Media</namespace>
+       <namespace key="-1">Special</namespace>
+       <namespace key="0"></namespace>
+       <namespace key="1">Talk</namespace>
+       <namespace key="2">User</namespace>
+       <namespace key="3">User talk</namespace>
+       <namespace key="4">Create Your Own Story</namespace>
+       <namespace key="5">Create Your Own Story talk</namespace>
+       <namespace key="6">File</namespace>
+       <namespace key="7">File talk</namespace>
+       <namespace key="8">MediaWiki</namespace>
+       <namespace key="9">MediaWiki talk</namespace>
+       <namespace key="10">Template</namespace>
+       <namespace key="11">Template talk</namespace>
+       <namespace key="12">Help</namespace>
+       <namespace key="13">Help talk</namespace>
+       <namespace key="14">Category</namespace>
+       <namespace key="15">Category talk</namespace>
+     </namespaces>
+   </siteinfo>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;  
+     <title>Template:SexRompStatus</title>
+     <id>5222</id>
+     <restrictions>move=sysop:edit=sysop</restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>10793</id>
+       <timestamp>2007-03-01T01:27:23Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">{| width=&#34;100%&#34;&#xA;| bgcolor=&#34;#3366FF&#34; valign=&#34;top&#34; width=&#34;100%&#34; colspan=&#34;3&#34;| &#39;&#39;&#39;Status&#39;&#39;&#39;&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34; width=&#34;8%&#34;| Health&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34; width=&#34;8%&#34;| {{{Health}}}&#xA;| bgcolor=&#34;#99FFFF&#34; valign=&#34;top&#34; width=&#34;84%&#34; rowspan=&#34;3&#34;| Location:&#xA;&#xA;{{{Location}}}&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34;| MP&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34;| {{{MP}}}&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34;| Level&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34;| {{{Level}}}&#xA;|}&#xA;&lt;noinclude&gt;[[Category:Templates]]&lt;/noinclude&gt;</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>11679</id>
+       <timestamp>2007-03-16T15:51:41Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">{| width=&#34;100%&#34;&#xA;| bgcolor=&#34;#3366FF&#34; valign=&#34;top&#34; width=&#34;100%&#34; colspan=&#34;3&#34;| &#39;&#39;&#39;Status&#39;&#39;&#39;&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34; width=&#34;8%&#34;| Health&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34; width=&#34;8%&#34;| {{{Health}}}&#xA;| bgcolor=&#34;#99FFFF&#34; valign=&#34;top&#34; width=&#34;84%&#34; rowspan=&#34;3&#34;| Location:&#xA;&#xA;{{{Location}}}&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34;| MP&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34;| {{{MP}}}&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34;| Level&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34;| {{{Level}}}&#xA;|}&#xA;&lt;noinclude&gt;[[Category:Templates|S]]&lt;/noinclude&gt;</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>15331</id>
+       <timestamp>2007-04-01T06:30:07Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">{| width=&#34;100%&#34;&#xA;| bgcolor=&#34;#3366FF&#34; valign=&#34;top&#34; width=&#34;100%&#34; colspan=&#34;3&#34;| &#39;&#39;&#39;Status&#39;&#39;&#39;&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34; width=&#34;8%&#34;| Health&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34; width=&#34;8%&#34;| {{{Health}}}&#xA;| bgcolor=&#34;#99FFFF&#34; valign=&#34;top&#34; width=&#34;84%&#34; rowspan=&#34;3&#34;| Location:&#xA;&#xA;{{{Location}}}&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34;| MP&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34;| {{{MP}}}&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34;| Level&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34;| {{{Level}}}&#xA;|}&#xA;&lt;noinclude&gt;[[Category:Templates|S]]  [[Category: Smutty Sex Romp]]&lt;/noinclude&gt;</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>15332</id>
+       <timestamp>2007-04-01T06:30:21Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">{| width=&#34;100%&#34;&#xA;| bgcolor=&#34;#3366FF&#34; valign=&#34;top&#34; width=&#34;100%&#34; colspan=&#34;3&#34;| &#39;&#39;&#39;Status&#39;&#39;&#39;&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34; width=&#34;8%&#34;| Health&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34; width=&#34;8%&#34;| {{{Health}}}&#xA;| bgcolor=&#34;#99FFFF&#34; valign=&#34;top&#34; width=&#34;84%&#34; rowspan=&#34;3&#34;| Location:&#xA;&#xA;{{{Location}}}&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34;| MP&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34;| {{{MP}}}&#xA;|-&#xA;| bgcolor=&#34;#0066FF&#34; valign=&#34;top&#34;| Level&#xA;| bgcolor=&#34;#66CCFF&#34; valign=&#34;top&#34;| {{{Level}}}&#xA;|}&#xA;&lt;noinclude&gt;[[Category:Templates|S]]  [[Category: Smutty Sex Romp| ]]&lt;/noinclude&gt;</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+   </page>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;    &#xA;  
+     <title>Smutty Sex Romp</title>
+     <id>1366</id>
+     <restrictions>move=sysop:edit=sysop</restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>1464</id>
+       <timestamp>2006-03-04T05:02:51Z</timestamp>
+       <contributor>&#xA;        &#xA;      
+         <username></username>
+         <id></id>
+         <ip>64.230.7.235</ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 PM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;{{Status|Equipment=none|Health=100}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>1830</id>
+       <timestamp>2006-04-24T05:07:47Z</timestamp>
+       <contributor>&#xA;        &#xA;      
+         <username></username>
+         <id></id>
+         <ip>216.164.140.143</ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;{{Status|Equipment=none|Health=100}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>2610</id>
+       <timestamp>2006-10-26T01:42:01Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District]]&#xA;*[[Go trolling at the mall]]&#xA;*[[Find your little black book and see who makes house calls]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits]]&#xA;{{Status|Equipment=none|Health=100}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>2611</id>
+       <timestamp>2006-10-26T01:42:19Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;{{Status|Equipment=none|Health=100}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>3580</id>
+       <timestamp>2006-11-19T06:37:41Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;{{SexRompStatus|Location=&#39;&#39;Your Apartment&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>4241</id>
+       <timestamp>2006-11-24T14:04:40Z</timestamp>
+       <contributor>&#xA;        &#xA;      
+         <username></username>
+         <id></id>
+         <ip>141.156.174.184</ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Eat the expired coupon]]&#xA;{{SexRompStatus|Location=&#39;&#39;Your Apartment&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>4242</id>
+       <timestamp>2006-11-24T14:05:35Z</timestamp>
+       <contributor>&#xA;        &#xA;      
+         <username></username>
+         <id></id>
+         <ip>141.156.174.184</ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Eat the expired coupon]]&#xA;*[[Put a pointe shoe on your dick]]&#xA;{{SexRompStatus|Location=&#39;&#39;Your Apartment&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>4250</id>
+       <timestamp>2006-11-24T22:17:56Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;{{SexRompStatus|Location=&#39;&#39;Your Apartment&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>5288</id>
+       <timestamp>2006-12-25T20:32:55Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>7517</id>
+       <timestamp>2007-01-09T01:01:37Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>C. Mitch</username>
+         <id>34</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]&#xA;*[http://www.wikitruth.info Link]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>7522</id>
+       <timestamp>2007-01-09T01:04:53Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>7622</id>
+       <timestamp>2007-01-09T05:36:19Z</timestamp>
+       <contributor>&#xA;        &#xA;      
+         <username></username>
+         <id></id>
+         <ip>203.206.38.47</ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Hard on? Wait a minute, I&#39;m a women.]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>7640</id>
+       <timestamp>2007-01-09T17:22:10Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>7732</id>
+       <timestamp>2007-01-10T13:38:23Z</timestamp>
+       <contributor>&#xA;        &#xA;      
+         <username></username>
+         <id></id>
+         <ip>205.222.240.2</ip>
+       </contributor>
+       <text space="preserve"></text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>7738</id>
+       <timestamp>2007-01-10T14:05:35Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>8830</id>
+       <timestamp>2007-02-03T02:46:48Z</timestamp>
+       <contributor>&#xA;        &#xA;      
+         <username></username>
+         <id></id>
+         <ip>69.139.152.64</ip>
+       </contributor>
+       <text space="preserve">YOU WAKE UP AND THEN REALIZE THAT YOU&#39;RE A TOTAL RETARD FOR LOOKING AT THIS PAGE. &#xA;&#xA;&#xA;GOOD JOB YOU RETARD</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>8831</id>
+       <timestamp>2007-02-03T03:04:01Z</timestamp>
+       <contributor>&#xA;        &#xA;      
+         <username></username>
+         <id></id>
+         <ip>71.230.104.71</ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment>rv</comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>9589</id>
+       <timestamp>2007-02-12T04:01:34Z</timestamp>
+       <contributor>&#xA;        &#xA;      
+         <username></username>
+         <id></id>
+         <ip>128.138.31.70</ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Go Downtown to go boy-watching]]&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>9660</id>
+       <timestamp>2007-02-12T16:16:20Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>9984</id>
+       <timestamp>2007-02-22T18:58:21Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Gaius Flaminius the Censor</username>
+         <id>46</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">&#39;&#39;&#39;&lt;Censored&gt; by [[User:Gaius Flaminius the Censor|Gaius Flaminius the Censor]]&#39;&#39;&#39;&#xA;==This page has been censored due to its extreme stupidity. Have a nice day.==</text>
+       <minor></minor>
+       <comment>&#39;&#39;&#39;&lt;Censored&gt; by [[User:Gaius Flaminius the Censor|Gaius Flaminius the Censor]]&#39;&#39;&#39;</comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>10021</id>
+       <timestamp>2007-02-22T21:36:57Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>10733</id>
+       <timestamp>2007-03-01T00:48:04Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Decimus Callaicus</username>
+         <id>56</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment>Smutty Sex Romp moved to Smsj9u9t9 gsfjomjys6p</comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>10735</id>
+       <timestamp>2007-03-01T00:48:42Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Decimus Callaicus</username>
+         <id>56</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">&lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt;&#xA;&lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt;</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>10774</id>
+       <timestamp>2007-03-01T01:12:40Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">&lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt;&#xA;&lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt; &lt;CENSORED&gt;</text>
+       <minor></minor>
+       <comment>Smsj9u9t9 gsfjomjys6p moved to Smutty Sex Romp</comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>10784</id>
+       <timestamp>2007-03-01T01:16:06Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>12319</id>
+       <timestamp>2007-03-22T21:27:12Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>12320</id>
+       <timestamp>2007-03-22T21:27:26Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp|*]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>13226</id>
+       <timestamp>2007-03-27T02:19:19Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>23315</id>
+       <timestamp>2007-10-19T15:17:24Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>28485</id>
+       <timestamp>2008-03-15T04:38:37Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;Or:&#xA;[[http://www.infictivecounty.com/artists/?album=Fuckers_Unite|Listen to the song &#39;&#39;Smutty Sex Romp&#39;&#39;]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>28486</id>
+       <timestamp>2008-03-15T04:40:09Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;Or:&#xA;*[http://www.infictivecounty.com/artists/?album=Fuckers_Unite| Listen to the song &#39;&#39;Smutty Sex Romp&#39;&#39;]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>28487</id>
+       <timestamp>2008-03-15T04:41:05Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;Or:&#xA;*[http://www.infictivecounty.com/artists/?album=Fuckers_Unite | Listen to the song &#39;&#39;Smutty Sex Romp&#39;&#39;]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>28488</id>
+       <timestamp>2008-03-15T04:42:14Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;Or:&#xA;*[http://www.infictivecounty.com/artists/?album=Fuckers_Unite  Listen to the song &#39;&#39;Smutty Sex Romp&#39;&#39;]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>53297</id>
+       <timestamp>2009-02-17T22:27:35Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>RobKohr</username>
+         <id>1</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;Or:&#xA;*[http://www.infictivecounty.com/artists/?album=Fuckers_Unite  Listen to the song &#39;&#39;Smutty Sex Romp&#39;&#39;]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;&#xA;&#xA;Optional: Jump To [[:Category:Smutty_Sex_Romp_Locations|a location in the story]]&#xA;&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>201570</id>
+       <timestamp>2014-04-01T23:49:22Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District?]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;&#xA;&#xA;Optional: Jump To [[:Category:Smutty_Sex_Romp_Locations|a location in the story]]&#xA;&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>264106</id>
+       <timestamp>2015-10-05T21:34:39Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District]]&#xA;*[[Go trolling at the mall?]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;&#xA;&#xA;Optional: Jump To [[:Category:Smutty_Sex_Romp_Locations|a location in the story]]&#xA;&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>267080</id>
+       <timestamp>2015-11-05T21:42:56Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District]]&#xA;*[[Go trolling at the mall]]&#xA;*[[Find your little black book and see who makes house calls?]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;&#xA;&#xA;Optional: Jump To [[:Category:Smutty_Sex_Romp_Locations|a location in the story]]&#xA;&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>301886</id>
+       <timestamp>2017-01-03T02:50:47Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District]]&#xA;*[[Go trolling at the mall]]&#xA;*[[Find your little black book and see who makes house calls]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits?]]&#xA;*[[Change your mind and go for a walk]]?&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;&#xA;&#xA;Optional: Jump To [[:Category:Smutty_Sex_Romp_Locations|a location in the story]]&#xA;&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>301899</id>
+       <timestamp>2017-01-03T02:59:49Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District]]&#xA;*[[Go trolling at the mall]]&#xA;*[[Find your little black book and see who makes house calls]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits]]&#xA;*[[Change your mind and go for a walk]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;&#xA;&#xA;Optional: Jump To [[:Category:Smutty_Sex_Romp_Locations|a location in the story]]&#xA;&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>350345</id>
+       <timestamp>2020-02-11T08:18:10Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>RobKohr</username>
+         <id>1</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District]]&#xA;*[[Go trolling at the mall]]&#xA;*[[Find your little black book and see who makes house calls]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits]]&#xA;*[[Change your mind and go for a walk]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;&#xA;&#xA;Optional: Jump To [[:Category:Smutty_Sex_Romp_Locations|a location in the story]]&#xA;&#xA;==New sections of significant size (at least 30 sub pages) that are less than 6 months old==&#xA;This story has grown so large that it is likely a reader will never encounter some new and interesting parts of the story. A &#34;section&#34; is a location change or major story-shift for the character. Dates are based on the creation time of the entry point to the section.&#xA;&#xA;{| class=&#34;wikitable&#34;&#xA;! Date of entry point creation&#xA;! Link&#xA;! Location &amp; Details&#xA;|-&#xA;| &#xA;| &#xA;| &#xA;|-&#xA;| &#xA;| &#xA;| &#xA;|}&#xA;&#xA;&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>350348</id>
+       <timestamp>2020-02-11T08:25:28Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>RobKohr</username>
+         <id>1</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">You wake up and glance at the alarm clock: it&#39;s 9 AM, and you just woke up with a hard-on.&#xA;&#xA;&#xA;&#xA;Do you:&#xA;*[[Put on some clothes and head for the Red Light District]]&#xA;*[[Go trolling at the mall]]&#xA;*[[Find your little black book and see who makes house calls]]&#xA;*[[Visit a local hotel that you hear has hot maids in tight outfits]]&#xA;*[[Change your mind and go for a walk]]&#xA;&#xA;Or, if your preferences are different...&#xA;*[[Go Downtown to go boy-watching]]&#xA;&#xA;Or...&#xA;*[[Hard on? Wait a minute, I&#39;m a woman]]&#xA;&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny|MP=0|Level=1}}&#xA;&#xA;&#xA;Optional: Jump To [[:Category:Smutty_Sex_Romp_Locations|a location in the story]]&#xA;&#xA;&#xA;&#xA;[[Category: Smutty Sex Romp| Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+   </page>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;  
+     <title>!lrigrepuS otni mrofsnart ,namrepuS</title>
+     <id>113104</id>
+     <restrictions></restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>266781</id>
+       <timestamp>2015-11-03T15:59:48Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">The prominent bulge in Superman’s tights abruptly vanishes… but two new bulges appear in &#39;&#39;her&#39;&#39; top.  Supergirl clamps her hands over her new tits.&#xA;&#xA;“Waah!” she exclaims.  “I’m a girl!”&#xA;&#xA;You say:&#xA;*“![[yssup s’lrigrepuS ni raeppa ,odliD]]”&#xA;*“![[sregnif dna eugnot ruoy htiw odlid ym ecalper ,lrigrepuS]]”&#xA;{{SexRompStatus|Location=&#39;&#39;[[The Costume Shop]]&#39;&#39;|Health=Horny &amp; Female &amp; Magical|MP=5|Level=5}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment>Created page with &#39;The prominent bulge in Superman’s tights abruptly vanishes… but two new bulges appear in &#39;&#39;her&#39;&#39; top.  Supergirl clamps her hands over her new tits.  “Waah!” she exclaims…&#39;</comment>
+     </revision>
+   </page>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;    &#xA;  
+     <title>!ssa rednoW reh kroP</title>
+     <id>113064</id>
+     <restrictions></restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>266681</id>
+       <timestamp>2015-11-02T18:22:41Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">Superman pulls his crotch away from your face and shoves himself up against Wonder Woman&#39;s rear.&#xA;&#xA;&#34;Mmfrf?&#34; Wonder Woman asks.&#xA;&#xA;&#34;I know you normally don&#39;t want dick anywhere except your pussy,&#34; Superman says.  &#34;But I can&#39;t help myself!  I&#39;ve got to fuck your ass!&#34;&#xA;&#xA;&#34;MMfrf!&#34; Wonder Woman exclaims as he drives his steel pole up her ass.&#xA;&#xA;She keeps making incoherent cries as her tongue pumps your pussy and she&#39;s relentlessly fucked in front and in the rear.  She&#39;s thoroughly trapped and getting thoroughly fucked, with no possible escape.  Her helplessness, combined with her tonguework on your twat and her suction on your clit make you cum even more violently than before.  You entwine your fingers in her hair and mash your spasming snatch against her captive face, gushing your honey into her mouth.  She screams as she cums, her hands reaching out blindly to grab at your heaving breasts.  Superman bellows like a bull and you know he&#39;s unloading a massive amount of sperm into her rectum.&#xA;&#xA;&#34;Wow!&#34; Superman says.  &#34;You gotta let me do your ass more often, Karen.  And more threesomes like this!  This is awesome!&#34;&#xA;&#xA;Awesome... but exhausting.  You can feel that your magic has completely run down.&#xA;&#xA;You say:&#xA;*&#34;[[Keep super-fucking the Wonder ass!]]&#34;&#xA;*&#34;[[How&#39;s about giving my ass a turn?]]&#34;&#xA;*&#34;[[Maybe we should rest a moment...?]]&#34;&#xA;{{SexRompStatus|Location=&#39;&#39;[[The Costume Shop]]&#39;&#39;|Health=Horny &amp; Female &amp; Magical|MP=0|Level=5}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment>Created page with &#39;Superman pulls his crotch away from your face and shoves himself up against Wonder Woman&#39;s rear.  &#34;Mmfrf?&#34; Wonder Woman asks.  &#34;I know you normally don&#39;t want dick anywhere excep…&#39;</comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>266683</id>
+       <timestamp>2015-11-02T18:23:57Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">Superman pulls his crotch away from your face and shoves himself up against Wonder Woman&#39;s rear.&#xA;&#xA;&#34;Mmfrf?&#34; Wonder Woman asks.&#xA;&#xA;&#34;I know you normally don&#39;t want dick anywhere except your pussy,&#34; Superman says.  &#34;But I can&#39;t help myself!  I&#39;ve got to fuck your ass!&#34;&#xA;&#xA;&#34;MMfrf!&#34; Wonder Woman exclaims as he drives his steel pole up her ass.&#xA;&#xA;She keeps making incoherent cries as her tongue pumps your pussy and she&#39;s relentlessly fucked in front and in the rear.  She&#39;s thoroughly trapped and getting thoroughly fucked, with no possible escape.  Her helplessness, combined with her tonguework on your twat and her suction on your clit make you cum even more violently than before.  You entwine your fingers in her hair and mash your spasming snatch against her captive face, gushing your honey into her mouth.  She screams as she cums, her hands reaching out blindly to grab at your heaving breasts.  Superman bellows like a bull and you know he&#39;s unloading a massive amount of sperm into her rectum.&#xA;&#xA;&#34;Wow!&#34; Superman says.  &#34;You gotta let me do your ass more often, Karen.  And more threesomes like this!  This is awesome!&#34;&#xA;&#xA;Awesome... but exhausting.  You can feel that your magic has completely run down.&#xA;&#xA;You say:&#xA;*&#34;[[Keep super-fucking that Wonder ass!]]&#34;&#xA;*&#34;[[How&#39;s about giving my ass a turn?]]&#34;&#xA;*&#34;[[Maybe we should rest a moment...?]]&#34;&#xA;{{SexRompStatus|Location=&#39;&#39;[[The Costume Shop]]&#39;&#39;|Health=Horny &amp; Female &amp; Magical|MP=0|Level=5}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+   </page>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;  
+     <title>!ssa s’namoW rednoW edisni raeppa rotarbiV</title>
+     <id>135905</id>
+     <restrictions></restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>329796</id>
+       <timestamp>2018-05-08T15:41:15Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">Wonder Woman squeals in indignation and whips her hands away from your throat so she can clutch at her suddenly invaded ass.  She’s helpless to do anything against your magic, though.  She dances back and forth, her pussy drilled by one magic dildo and her ass invaded by another.  They buzz inside her, just as your dildo buzzes inside your snatch.  The sight of her desperation is almost as stimulating as the vibrations inside you.&#xA;&#xA;“Give up, Karen!” Supergirl says.  “Just cum!”&#xA;&#xA;“This, this, it’s…  Oh!” Wonder Woman says.&#xA;&#xA;She wobbles and falls down, twitching uncontrollably.  Supergirl scoots over to her and wraps herself around the trembling Wonder Woman.  Wonder Woman attempts to squirm away, but when her next climax hits her, Supergirl locks lips with her and the pair moan into each other’s mouths&#xA;&#xA;The sight of them shuddering together, the sounds of their moans, and the scent of their arousal filling the air pushes you over the edge and you climax as well, your every muscle spasming and fireworks going off inside your head.&#xA;&#xA;“Oh, god, Dave, it won’t stop!” Wonder Woman cries.  “My ass!”&#xA;&#xA;“Just keep riding it, babe,” Supergirl says.  “Just keep riding it.  Oh, fuck!  Aagh!”&#xA;&#xA;“It’s too in, in, intense!” Wonder Woman moans.  “They’re going to burn out my nervous system!”&#xA;&#xA;Your orgasm is subsiding, but it appears that they’re already climaxing once again.&#xA;&#xA;Do you:&#xA;*[[Magically conjure vibrating dildos into your ass and Supergirl’s]]&#xA;*Say, “[[!em htiw eldduc dna emoc, lrigtaB]]”&#xA;*Say, “[[!stit ym eno no kcus uoy fo hcaE]]”&#xA;{{SexRompStatus|Location=&#39;&#39;[[The Costume Shop]]&#39;&#39;|Health=Horny &amp; Female &amp; Magical|MP=2|Level=5}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment>Created page with &#39;Wonder Woman squeals in indignation and whips her hands away from your throat so she can clutch at her suddenly invaded ass.  She’s helpless to do anything against your magic, …&#39;</comment>
+     </revision>
+   </page>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;    &#xA;  
+     <title>!ssa ym kciD</title>
+     <id>123511</id>
+     <restrictions></restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>296402</id>
+       <timestamp>2016-09-05T21:37:28Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">Superman pulls his crotch away from your face.  He lifts you up, then drops you down on his pole, neatly spearing your brown cherry.  You’re slick with sweat after the orgasms that Wonder Woman’s wonder tongue has given you, so he penetrates you relatively easily, but you certainly still feel it as your rectum is filled by a dick of steel.&#xA;&#xA;&#34;Mmfrf?&#34; Wonder Woman asks.&#xA;&#xA;&#34;I know you don&#39;t want dick anywhere except your pussy, Karen,&#34; Superman says.  &#34;Looks like our friend here likes getting butt-fucked.&#34;&#xA;&#xA;Then he clamps his hands onto your waist and gets to work, lifting you up and slamming you down, faster and faster.  He’s careful not to lift you up high enough for his dick to slip out of you, and you find yourself flexing your anal walls around his rod.  Wonder Woman locks her arms around your waist in her need to keep her lips locked over your labia.  Her tongue thrusts in and out of you, matching the thrusts of the dick moving in and out of your ass.  You’re sandwiched between the two lovers, getting stimulation from both sides, and it feels wonderful.  You can’t catch your breath, can’t cast any magic, and you’re helplessly trapped between them.&#xA;&#xA;Your helplessness, combined with their rapt attention on your horny holes, soon has you quivering and cumming, shaking and shuddering under their vaginal, anal, and clitoral attentions.  Your hot honey spills into Wonder Woman’s mouth.  She screams into your snatch as she cums as well.  Superman bellows like a bull and the feel of him unloading a massive amount of sperm into your rectum makes you climax all over again.  Your head spins and you’re glad that you’ve got support in front of you and behind you, because you feel like you’re on the verge of passing out.&#xA;&#xA;&#34;Wow!&#34; Superman says.  &#34;We gotta have more threesomes like this, Karen!  This is awesome!&#34;&#xA;&#xA;Awesome... but exhausting.  Not only are you too close to losing consciousness, you can feel that your magic has completely run down.&#xA;&#xA;You say:&#xA;*&#34;[[Keep super-fucking that my magic ass!]]&#34;&#xA;*&#34;[[How&#39;s about giving Wonder Woman’s ass a turn?]]&#34;&#xA;*&#34;[[Maybe we should take a moment to rest...?]]&#34;&#xA;{{SexRompStatus|Location=&#39;&#39;[[The Costume Shop]]&#39;&#39;|Health=Horny &amp; Female &amp; Magical|MP=0|Level=5}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment>Created page with &#39;Superman pulls his crotch away from your face.  He lifts you up, then drops you down on his pole, neatly spearing your brown cherry.  You’re slick with sweat after the orgasms …&#39;</comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>337467</id>
+       <timestamp>2018-11-06T15:36:33Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">Superman pulls his crotch away from your face.  He lifts you up, then drops you down on his pole, neatly spearing your brown cherry.  You’re slick with sweat after the orgasms that Wonder Woman’s wonder tongue has given you, so he penetrates you relatively easily, but you certainly still feel it as your rectum is filled by a dick of steel.&#xA;&#xA;&#34;Mmfrf?&#34; Wonder Woman asks.&#xA;&#xA;&#34;I know you don&#39;t want dick anywhere except your pussy, Karen,&#34; Superman says.  &#34;Looks like our friend here likes getting butt-fucked.&#34;&#xA;&#xA;Then he clamps his hands onto your waist and gets to work, lifting you up and slamming you down, faster and faster.  He’s careful not to lift you up high enough for his dick to slip out of you, and you find yourself flexing your anal walls around his rod.  Wonder Woman locks her arms around your waist in her need to keep her lips locked over your labia.  Her tongue thrusts in and out of you, matching the thrusts of the dick moving in and out of your ass.  You’re sandwiched between the two lovers, getting stimulation from both sides, and it feels wonderful.  You can’t catch your breath, can’t cast any magic, and you’re helplessly trapped between them.&#xA;&#xA;Your helplessness, combined with their rapt attention on your horny holes, soon has you quivering and cumming, shaking and shuddering under their vaginal, anal, and clitoral attentions.  Your hot honey spills into Wonder Woman’s mouth.  She screams into your snatch as she cums as well.  Superman bellows like a bull and the feel of him unloading a massive amount of sperm into your rectum makes you climax all over again.  Your head spins and you’re glad that you’ve got support in front of you and behind you, because you feel like you’re on the verge of passing out.&#xA;&#xA;&#34;Wow!&#34; Superman says.  &#34;We gotta have more threesomes like this, Karen!  This is awesome!&#34;&#xA;&#xA;Awesome... but exhausting.  Not only are you too close to losing consciousness, you can feel that your magic has completely run down.&#xA;&#xA;You say:&#xA;*&#34;[[Keep super-fucking my magic ass!]]&#34;&#xA;*&#34;[[How&#39;s about giving Wonder Woman’s ass a turn?]]&#34;&#xA;*&#34;[[Maybe we should take a moment to rest...?]]&#34;&#xA;{{SexRompStatus|Location=&#39;&#39;[[The Costume Shop]]&#39;&#39;|Health=Horny &amp; Female &amp; Magical|MP=0|Level=5}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+   </page>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;    &#xA;  
+     <title>!yssup rednoW reh kroP</title>
+     <id>113067</id>
+     <restrictions></restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>266689</id>
+       <timestamp>2015-11-02T18:45:21Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">Superman swings his crotch away from your face and he positions himself behind the wonder Cutie munching your muffin.  You hear a squelching sound as he shoves his hand into her clam and a muffled sound from her as he yanks the dildo out.&#xA;&#xA;&#34;I&#39;ve got something something a lot better for you than some old toy,&#34; Superman says.&#xA;&#xA;&#34;MMfrf!&#34; Wonder Woman exclaims as he drives his steel pole up her snatch.&#xA;&#xA;She keeps making incoherent cries as her tongue pumps your pussy and her pussy is relentlessly pumped from behind by a super-penis.  She&#39;s thoroughly trapped and getting thoroughly fucked, with no possible escape.  Her helplessness, combined with her tonguework on your twat and her suction on your clit make you cum even more violently than before.  You entwine your fingers in her hair and mash your spasming snatch against her captive face, gushing your honey into her mouth.  She screams as she cums, her hands reaching out blindly to grab at your heaving breasts.  Superman bellows like a bull and you know he&#39;s unloading a massive amount of sperm into her vagina.&#xA;&#xA;&#34;Wow!&#34; Superman says.  &#34;Your pussy is always awesome, Karen, but it&#39;s better than ever today!  We gotta have more threesomes like this!&#34;&#xA;&#xA;He&#39;s right that it&#39;s awesome, but it&#39;s also exhausting.  You can feel that your magic has run out.&#xA;&#xA;You say:&#xA;*&#34;[[Don&#39;t stop pounding her Wonder pussy!]]&#34;&#xA;*&#34;[[Can we take a rest break...?]]&#34;&#xA;*&#34;[[I&#39;d like to suck her juices off your pole]].&#34;&#xA;{{SexRompStatus|Location=&#39;&#39;[[The Costume Shop]]&#39;&#39;|Health=Horny &amp; Female &amp; Magical|MP=0|Level=5}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment>Created page with &#39;Superman swings his crotch away from your face and he positions himself behind the wonder Cutie munching your muffin.  You hear a squelching sound as he shoves his hand into her …&#39;</comment>
+     </revision>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>274488</id>
+       <timestamp>2016-01-15T02:45:45Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Platypus</username>
+         <id>20</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">Superman swings his crotch away from your face and he positions himself behind the Wonder Cutie munching your muffin.  You hear a squelching sound as he shoves his hand into her clam and a muffled sound from her as he yanks the dildo out.&#xA;&#xA;&#34;I&#39;ve got something something a lot better for you than some old toy,&#34; Superman says.&#xA;&#xA;&#34;MMfrf!&#34; Wonder Woman exclaims as he drives his steel pole up her snatch.&#xA;&#xA;She keeps making incoherent cries as her tongue pumps your pussy and her pussy is relentlessly pumped from behind by a super-penis.  She&#39;s thoroughly trapped and getting thoroughly fucked, with no possible escape.  Her helplessness, combined with her tonguework on your twat and her suction on your clit make you cum even more violently than before.  You entwine your fingers in her hair and mash your spasming snatch against her captive face, gushing your honey into her mouth.  She screams as she cums, her hands reaching out blindly to grab at your heaving breasts.  Superman bellows like a bull and you know he&#39;s unloading a massive amount of sperm into her vagina.&#xA;&#xA;&#34;Wow!&#34; Superman says.  &#34;Your pussy is always awesome, Karen, but it&#39;s better than ever today!  We gotta have more threesomes like this!&#34;&#xA;&#xA;He&#39;s right that it&#39;s awesome, but it&#39;s also exhausting.  You can feel that your magic has run out.&#xA;&#xA;You say:&#xA;*&#34;[[Don&#39;t stop pounding her Wonder pussy!]]&#34;&#xA;*&#34;[[Can we take a rest break...?]]&#34;&#xA;*&#34;[[I&#39;d like to suck her juices off your pole]].&#34;&#xA;{{SexRompStatus|Location=&#39;&#39;[[The Costume Shop]]&#39;&#39;|Health=Horny &amp; Female &amp; Magical|MP=0|Level=5}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment></comment>
+     </revision>
+   </page>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;  
+     <title>&#34;...if you let me 69 with you, that would be quite sufficient.&#34;</title>
+     <id>139139</id>
+     <restrictions></restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>338219</id>
+       <timestamp>2018-11-28T14:51:28Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Teejay</username>
+         <id>2412</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">She gives you a sexy smile. &#34;Deal.&#34;&#xA;&#xA;You pick her up and then turn her upside down, lifting her upwards until her pussy is resting against your mouth. Within seconds, you web her securely to you she she won&#39;t fall down, then you begin tonguing her.&#xA;&#xA;She wraps her lips around your pole and slides her tongue along your shaft. You lick her with greater intensity. &#xA;&#xA;She begins caressing your balls as she sucks your rod. You find her clit and gently brush it with a fingertip, making her cum.&#xA;&#xA;She cums twice more before you fill her mouth with your sperm. She swallows it down, and you un-web her and place her on the ground, upright. &#xA;&#xA;&#34;You&#39;re really good at licking pussy,&#34; she smiles. &#34;I wouldn&#39;t mind spending more time with you.&#34;&#xA;&#xA;*[[Tell her you have to deal with the cocooned crooks first]]&#xA;*[[Suggest that you return with her to her dwelling... and her bed]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Dingy Alley]]&#39;&#39;|Health=Horny with Spider-powers|MP=0|Level=5}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment>Created page with &#39;She gives you a sexy smile. &#34;Deal.&#34;  You pick her up and then turn her upside down, lifting her upwards until her pussy is resting against your mouth. Within seconds, you web her…&#39;</comment>
+     </revision>
+   </page>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;  
+     <title>&#34;...my crooked penis that looks broken and sewn together!&#34;</title>
+     <id>73597</id>
+     <restrictions></restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>166591</id>
+       <timestamp>2012-12-17T17:55:38Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Anedwcan</username>
+         <id>6160</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">&#34;Most girls couldn&#39;t guess that in a million years!&#34; You can tell the voice is impressed. &#34;That&#39;s right. But I assure you it&#39;s still working! Anyway, I look forward to our super evening together. Just say the password at the gate, and they&#39;ll let you right inside and get you a drink.&#34;&#xA;&#xA;&#34;And oh, it&#39;s a costume party, so come dressed up! Or down, as it were...&#34;&#xA;&#xA;&#34;What is the password,&#34; you ask.&#xA;&#xA;&#34;Oh, of course. It&#39;s &#39;&#39;&#39;penis&#39;&#39;&#39;. Childish, I know, but if you didn&#39;t like frat boys I guess we wouldn&#39;t be having this conversation, ha ha!&#34;&#xA;&#xA;You&#39;re about to ask what theme the party is, but you&#39;ve heard the background noise. &#xA;&#xA;Perhaps you could make a guess?&#xA;*[[Is it a Hawaiian hula hula party?]]&#xA;*[[Is it a Roman toga party?]]&#xA;*[[Is it a African missionaries-and-cannibals party?]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny and Hormonal|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment>Created page with &#39;&#34;Most girls couldn&#39;t guess that in a million years!&#34; You can tell the voice is impressed. &#34;That&#39;s right. But I assure you it&#39;s still working! Anyway, I look forward to our super …&#39;</comment>
+     </revision>
+   </page>
+   <page>&#xA;    &#xA;    &#xA;    &#xA;  
+     <title>&#34;...my incredibly thick, yellowish, semen I ejaculate in ridiculous amounts!&#34;</title>
+     <id>73598</id>
+     <restrictions></restrictions>
+     <revision>&#xA;      &#xA;      &#xA;      &#xA;      &#xA;      &#xA;    
+       <id>166592</id>
+       <timestamp>2012-12-17T17:57:54Z</timestamp>
+       <contributor>&#xA;        &#xA;        &#xA;      
+         <username>Anedwcan</username>
+         <id>6160</id>
+         <ip></ip>
+       </contributor>
+       <text space="preserve">&#34;No way that&#39;s your first guess!&#34; the voice exclaims. &#34;I guess the section of the web site gave me away, heh! Okay, then, don&#39;t stand me up now, you hear? Just say the password at the gate, and they&#39;ll let you right inside and get you a drink.&#34;&#xA;&#xA;&#34;And oh, it&#39;s a costume party, so come dressed up! Or down, as it were...&#34;&#xA;&#xA;&#34;What is the password,&#34; you ask.&#xA;&#xA;&#34;Oh, of course. It&#39;s &#39;&#39;&#39;semen&#39;&#39;&#39;. Hope you&#39;re not offended?&#34;&#xA;&#xA;You assure him you&#39;re not, and are about to ask what theme the party is, but you&#39;ve heard the background noise. &#xA;&#xA;Perhaps you could make a guess?&#xA;*[[Is it a Hawaiian hula hula party?]]&#xA;*[[Is it a Roman toga party?]]&#xA;*[[Is it a African missionaries-and-cannibals party?]]&#xA;{{SexRompStatus|Location=&#39;&#39;[[Your Apartment]]&#39;&#39;|Health=Horny and Hormonal|MP=0|Level=1}}&#xA;[[Category: Smutty Sex Romp]]</text>
+       <minor></minor>
+       <comment>Created page with &#39;&#34;No way that&#39;s your first guess!&#34; the voice exclaims. &#34;I guess the section of the web site gave me away, heh! Okay, then, don&#39;t stand me up now, you hear? Just say the password a…&#39;</comment>
+     </revision>
+   </page>
+ </mediawiki>

@@ -1,6 +1,6 @@
 SHELL=/bin/bash
 IPS:=$(shell hostname -I)
-LOCAL_IP:=192.168.100.160
+LOCAL_IP:=10.151.125.137
 USER=$(shell id -nu)
 
 DOCKER_DATA_DIR=/data/docker
@@ -28,6 +28,10 @@ OPENHAB_PORT=8091
 HASSIO_PORT=8123
 XOA_PORT=8093
 
+nginx:
+	docker run -d \
+	--restart=unless-stoppped \
+	
 mytele:
 	docker build -f mytele.dockerfile -t mytele .
 telegraf: mytele
@@ -82,6 +86,9 @@ chronograf:
 	chronograf &
 
 influxdb:
+	mkdir $(DOCKER_DATA_DIR)/influxdb || true
+	cp ./influxdb.conf $(DOCKER_DATA_DIR)/influxdb/influxdb.conf
+
 	docker run -d \
 	--restart=unless-stopped \
 	--name influxdb \
@@ -137,16 +144,13 @@ postgres:
 
 pgadmin:
 	docker run -d \
-	--user $(CURRENT_UID):$(CURRENT_GID) \
 	--restart=unless-stopped \
 	--name pgadmin \
 	-p $(PGADMIN_PORT):80 \
 	-e 'PGADMIN_DEFAULT_PASSWORD=password' \
 	-e 'PGADMIN_DEFAULT_EMAIL=admin@admin.net' \
 	-v $(DOCKER_DATA_DIR)/pgadmin/pgadmin:/var/lib/pgadmin \
-	-v $(DOCKER_DATA_DIR)/pgadmin/configs/config_local.py:/pgadmin4/config_local.py \
-	-v $(DOCKER_DATA_DIR)/pgadmin/configs/servers.json:/pgadmin4/servers.json \
-	dpage/pgadmin4 &
+	dpage/pgadmin4:4 &
 
 redis:
 	docker run -d \
