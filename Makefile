@@ -20,13 +20,23 @@ GRAFANA_PORT=8085
 CHRONOGRAF_PORT=8084
 
 
-
-
+HEIMDALL_PORT=80
 TRAEFIK_PORT=8080
 KEYCLOAK_PORT=8090
 OPENHAB_PORT=8091
 HASSIO_PORT=8123
 XOA_PORT=8093
+
+heimdall:
+	docker run -d \
+	--restart=unless-stopped \
+	--name=heimdall \
+	-e PUID=1000 \
+	-e PGID=1000 \
+	-p 80:80 \
+	-p 443:443 \
+	-v $(DOCKER_DATA_DIR)/heimdall:/config \
+	linuxserver/heimdall
 
 nginx:
 	docker run -d \
