@@ -27,6 +27,10 @@ OPENHAB_PORT=8091
 HASSIO_PORT=8123
 XOA_PORT=8093
 
+.PHONY: logstash
+
+
+
 heimdall:
 	docker run -d \
 	--restart=unless-stopped \
