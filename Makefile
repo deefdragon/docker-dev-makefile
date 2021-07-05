@@ -168,12 +168,12 @@ pgadmin:
 
 redis:
 	docker run -d \
-	--user $(CURRENT_UID):$(CURRENT_GID) \
 	--restart=unless-stopped \
 	--name redis \
+	-e REDIS_PASSWORD=Password1234 \
 	-p $(REDIS_PORT):6379 \
-	-v $(DOCKER_DATA_DIR)/redis:/data \
-	redis &
+	-v $(DOCKER_DATA_DIR)/redis:/bitnami/redis/data \
+	bitnami/redis:latest &
 
 keycloak:
 	docker run -d \
