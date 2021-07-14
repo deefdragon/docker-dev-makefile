@@ -2,15 +2,15 @@ version: "3"
 
 services:
   master:
-    image: locustio/locust
+    image: mylocust
     ports:
       - "8089:8089"
     volumes:
       - ./:/mnt/locust
-    command: -f /mnt/locust/locustfile.py --master -H https://192.168.100.153:4201
+    command: -f /mnt/locust/locustfile.py --master -H "api.streem.tech"
 
   worker:
-    image: locustio/locust
+    image: mylocust
     volumes:
       - ./:/mnt/locust
     command: -f /mnt/locust/locustfile.py --worker --master-host master
