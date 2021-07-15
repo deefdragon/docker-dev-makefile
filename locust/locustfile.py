@@ -14,8 +14,18 @@ from uuid import uuid4
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+#PROD
+#cookie = "st_sub"
+#host = "api.streem.tech"
 
-host = "192.168.100.153:4201"
+#QA
+cookie = "qa_sub"
+host = "api-qa.streem.tech"
+
+#DEV
+# cookie = "dev_sub"
+# host = "192.168.100.153:4201"
+
 print("Default host: %s" % (host))
 class QuickstartUser(HttpUser):
 	wait_time = between(1,1)
@@ -27,10 +37,8 @@ class QuickstartUser(HttpUser):
 #get results
 	def on_start(self):
 		self.wsLoop = True
-		print("test")
-		if not self.host:
-			self.host = host
-			print("setting host to %s" % self.host)
+		self.host = host
+		print("setting host to %s" % self.host)
 
 	def on_stop(self):
 		print("closing WS. %s" % self.id)
@@ -40,9 +48,9 @@ class QuickstartUser(HttpUser):
 
 	@task
 	def userFlow(self):
-		print("loop status: %s" % self.wsLoop)
 		id = uuid4().hex
 		self.id = id
+		print("Using ID: %s" % self.id)
 		poll = 3
 		self.httpEndpoint = "https://" + self.host + "/polls/" + str(poll)
 		self.wsEndpoint = "wss://" + self.host + "/polls/" + str(poll)
@@ -57,7 +65,7 @@ class QuickstartUser(HttpUser):
 def getPoll(self, id, poll):
 	dest = self.httpEndpoint
 
-	print("getPoll: (%d)" % poll)
+	print("getPoll: (%s) (%d)" % (dest, poll))
 	self.client.get(url=dest,
 		headers={"subject-uuid": id},
 		verify=False,
@@ -66,7 +74,7 @@ def getPoll(self, id, poll):
 def getVote(self, id, poll):
 	dest = self.httpEndpoint + "/v"
 
-	print("getVote: (%d)" % poll)
+	print("getVote: (%s) (%d)" % (dest, poll))
 	self.client.get(
 		url=dest,
 		headers={"subject-uuid": id},
@@ -78,7 +86,7 @@ def postVote(self, id, poll):
 	voteData = {"Items": Items, "Poll": poll}
 	dest = self.httpEndpoint + "/v"
 
-	print("postVote: (%d), (%s)" % (poll, voteData))
+	print("postVote:(%s) (%d), (%s)" % (dest, poll, voteData))
 	self.client.post(
 		url=dest,
 		json=voteData,
@@ -89,10 +97,10 @@ def postVote(self, id, poll):
 def getResults(self, id, poll):
 
 	dest = self.wsEndpoint + "/r"
-	print("wsResults: (%d)" % poll)
+	print("wsResults: (%s) (%d)" % (dest, poll))
 	ws = create_connection(dest, 
 		sslopt={"cert_reqs": ssl.CERT_NONE},
-		header={"subject-uuid": id, "Cookie": "dev_sub="+id}
+		header={"subject-uuid": id, "Cookie": cookie+"="+id}
 	)
 	self.ws = ws
 	# TODO should actually be adding these to an array, and closing ALL of them.

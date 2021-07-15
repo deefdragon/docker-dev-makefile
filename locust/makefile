@@ -15,3 +15,6 @@ swarm:
 
 image: 
 	docker build . -t mylocust
+
+logs:
+	docker logs -f locust_master_1
