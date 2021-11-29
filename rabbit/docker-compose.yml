@@ -1,0 +1,12 @@
+version: "3.2"
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: "rabbitmq"
+    ports:
+      - 5672:5672
+      - 15672:15672
+    volumes:
+      - /home/deef/workspace/src/docker-dev-makefile/rabbit/data/:/var/lib/rabbitmq/
+      - /home/deef/workspace/src/docker-dev-makefile/rabbit/log/:/var/log/rabbitmq
+    restart: unless-stopped
